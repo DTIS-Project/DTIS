@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		div{
+			border:1px solid;
+			margin: 150px;
+		}
+		h2{
+			margin-left: 500px;
+		}
+		form{
+			margin: 20px;
+		}	
+	</style>
+<meta charset="utf-8">
+<title>DTİSAdminPanel</title>
+</head>
+<body>
+	<script src="Scripts/Admin.js"></script>
+	<div>
+		<form method="post" onsubmit="giris();">
+  			<label for="kullaniciadi">Kullanıcı Adı:</label><br>
+  			<input type="text" id="kadi" name="kadi" required><br>
+  			<label for="sifre">Şifre:</label><br>
+  			<input type="password" id="sifre" name="sifre" required minlength="4"><br>
+			<button>Giriş</button>
+		</form>
+	</div>
+</body>
+</html>

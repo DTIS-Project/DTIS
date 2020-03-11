@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		.input{
+			position: relative;
+			left:800px;
+		}
+		div{
+			border:1px solid;
+			margin: 50px;
+		}
+		h2{
+			margin-left: 500px;
+		}
+		form{
+			margin: 20px;
+		}
+		img{
+			border:2px solid;
+			width:200px;
+			height:250px;
+			position: relative;
+			left:800px;
+		}
+	</style>
+<meta charset = "utf-8">
+<title>DTISAdminPanel</title>
+		<button onclick="document.location =' KullaniciKayit.html '">Kullanıcı Kayıt</button>
+		<button onclick="document.location =' HedefEkle.html '">Hedef Ekle</button>
+		<button onclick="document.location =' Ayarlar.html '">Ayarlar</button>
+</head>
+<body>
+	<div>
+		<form method="post">
+			<table>
+				<tr>
+					<td>
+						<label for="adsoyad">Adı/Soyadı:</label><br>
+  						<input type="text" id="adsoyad" name="adsoyad"><br>
+						<label for="kodadi">Kod Adı:</label><br>
+						<input type="text" id="kodadi" name="kodadi"><br>
+						<label for="orgut">Mensubu Olduğu Terör Örgütü:</label><br>
+						<input type="text" id="orgut" name="orgut"><br>
+						<label for="derece">Aranma Derecesi:</label><br>
+						<input type="text" id="derece" name="derece"><br><br>
+						<button>Hedefi Sisteme Ekle</button>
+					</td>
+					<td>
+						<img src="Images/kisspng-user-interface-design-computer-icons-default-stephen-salazar-photography-5b1462e1dab901.4508913715280626898959.png" alt="null"><br>
+						<input class="input" type="file" id="resimsec" name="resimsec"><br>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

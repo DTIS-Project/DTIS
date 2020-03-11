@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		.button{
+			position: relative;
+			left:800px;
+		}
+		div{
+			border:1px solid;
+			margin: 50px;
+		}
+		h2{
+			margin-left: 500px;
+		}
+		form{
+			margin: 20px;
+		}
+		img{
+			border:2px solid;
+			width:200px;
+			height:250px;
+			position: relative;
+			left:800px;
+		}
+	</style>
+<meta charset = "utf-8">
+<title>DTISAdminPanel</title>
+		<button onclick="document.location = ' KullaniciKayit.html '">Kullanıcı Kayıt</button>
+		<button onclick="document.location =' HedefEkle.html '">Hedef Ekle</button>
+		<button onclick="document.location =' Ayarlar.html '">Ayarlar</button>
+</head>
+<body>
+	<div>
+		<form method="post">
+			<table>
+				<tr>
+					<td>
+						<input type="radio" id="yetkili" name="personeltype" value="yetkili">
+						<label for="yetkili">Yetkili</label><br>
+						<input type="radio" id="personel" name="personeltype" value="personel">
+						<label for="personel">Personel</label><br><br>
+						<label for="adsoyad">Kullanıcı Adı/Soyadı:</label><br>
+						<input type="text" id="adsoyad" name="adsoyad"><br>
+						<label for="sicilno">Kullanıcı Sicil Numarası:</label><br>
+						<input type="text" id="sicilno" name="sicilno"><br>
+						<label for="tcno">Kullanıcı TC Kimlik Numarası:</label><br>
+						<input type="text" id="tcno" name="tcno"><br><br>
+						<input type="submit" id="kayit" name="kayit" value="Kaydet">
+					</td>
+					<td>
+						<img src="Images/kisspng-user-interface-design-computer-icons-default-stephen-salazar-photography-5b1462e1dab901.4508913715280626898959.png" alt="null"><br>
+						<button class="button" > Resim Seç</button><br>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
